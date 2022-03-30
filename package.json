@@ -1,8 +1,8 @@
 {
-  "name": "libraryshapes",
+  "name": "@alpas/libraryshapes",
   "version": "1.0.0",
   "description": "A small React library with shapes",
-  "main": "index.js",
+  "main": "dist/cjs/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "rollup": "rollup -c"
@@ -19,10 +19,24 @@
     "rollup-plugin-dts": "^4.2.0",
     "typescript": "^4.6.3"
   },
-  "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alweso/shapeslibrary.git"
+  },
+  "keywords": [
+    "react",
+    "shapes"
+  ],
+  "bugs": {
+    "url": "https://github.com/alweso/shapeslibrary/issues"
+  },
+  "homepage": "https://github.com/alweso/shapeslibrary#readme"
 }
