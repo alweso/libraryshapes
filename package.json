@@ -1,6 +1,6 @@
 {
-  "name": "@alpas/libraryshapes",
-  "version": "2.0.1",
+  "name": "@alpas/shaypes",
+  "version": "1.0.0",
   "description": "A small React library with shapes",
   "main": "dist/cjs/index.js",
   "scripts": {

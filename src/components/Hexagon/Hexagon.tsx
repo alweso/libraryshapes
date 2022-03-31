@@ -8,7 +8,6 @@ const Hexagon: React.FC<HexagonType> = (props) => {
 		<svg viewBox="0 0 200 160" style={{height: "100px"}}>
 				<polygon fill={color} points="138,166.33 52,166.33 4,83.2 52,0 138,0 186,83.2" />
 		</svg>
-
 		</div>
 	)
 }
