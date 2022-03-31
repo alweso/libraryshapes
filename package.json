@@ -4,7 +4,7 @@
   "description": "A small React library with shapes",
   "main": "dist/cjs/index.js",
   "scripts": {
-    "test": "react-scripts test",
+    "test": "react-scripts test --watchAll=false",
     "rollup": "rollup -c"
   },
   "author": "Aleksandra Pascaru",
